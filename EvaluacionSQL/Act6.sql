@@ -2,4 +2,4 @@
 
 SELECT count(membership_status) AS Category FROM get_fit_now_member 
 GROUP BY membership_status
-ORDER BY Category ASC;
+ORDER BY Category DESC;
